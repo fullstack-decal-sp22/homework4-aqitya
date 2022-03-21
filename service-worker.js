@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/homework4-%7Byour_username%7D/precache-manifest.27f1d989c9575892962aa83d9f101e05.js"
+  "/homework4-aqitya/precache-manifest.0ab46e99726cb5c4fdb6815d40837a29.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/homework4-%7Byour_username%7D/index.html", {
+workbox.routing.registerNavigationRoute("/homework4-aqitya/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
